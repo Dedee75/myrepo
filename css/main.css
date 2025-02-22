@@ -1,0 +1,67 @@
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.second-blog {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+
+.card {
+    box-shadow: 10px 10px 10px 5px lightgrey;
+
+}
+
+.row {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.row img {
+    width: 100%;
+    margin-left: 12px;
+    object-fit: cover;
+}
+
+
+
+@media(max-width:650px) {
+    .main-card-container {
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .carousel-item {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .carousel-item img {
+        height: 100vh;
+        width: auto;
+        max-width: none;
+    }
+}
